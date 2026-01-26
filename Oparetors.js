@@ -138,3 +138,12 @@ console.log(total);
 
 const k = isNaN(2 - 10);
 console.log(k);
+
+
+console.log(119 % 5);
+
+
+const mark = 75.25 + 65 + 80 + 35.45 + 99.50;
+const subjects = 5;
+const avareg = mark / subjects;
+console.log(avareg.toFixed(2));
