@@ -10,11 +10,26 @@
 
 
 
-const car = {
-    make: "Toyota",
-    model: "Corolla",
-    year: 2020
+// const car = {
+//     make: "Toyota",
+//     model: "Corolla",
+//     year: 2020
+// };
+
+// car['passenger capacity'] = 5;
+// console.log(car);
+
+
+
+const student = {
+    name: "Hamim Sakep",
+    id: 5421,
+    physics: {
+        subject: "HSC Physics",
+        author: "Shahjahan Tapan",
+        marks: 30
+    }
 };
 
-car['passenger capacity'] = 5;
-console.log(car);
+const physicsmarks = student.physics.marks;
+console.log(physicsmarks);
