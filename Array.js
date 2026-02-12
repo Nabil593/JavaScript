@@ -37,3 +37,26 @@
 // const array02 = ['Pagol', 'Chagol', 'Alu'];
 // const connect = array01.concat(array02);
 // console.log(array01, array02, connect);
+
+
+
+
+// const colors = ['red', 'blue', 'green', 'yellow', 'orange'];
+
+// let reversedArray = [];
+// for(const color of colors) {
+//     reversedArray.unshift(color);
+// }
+// console.log(reversedArray);
+
+
+// const numbers = [12, 98, 5, 41, 23, 78, 46];
+// const evenNumbers = [];
+// for (const num of numbers) {
+//     if (num % 2 === 0) {
+//         evenNumbers.push(num);
+//     }
+// }
+// console.log(evenNumbers);
+
+
