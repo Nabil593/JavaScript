@@ -93,3 +93,20 @@
 // const result = array([1, 2, 3]);
 // console.log('Original:', result.Original, 'Copy:', result.Copy);
 
+
+
+// function arrrayOfStudents(students) {
+//     for (const student of students) {
+//         const name = student.name;
+//         const mark = student.marks;
+//         const final = `${name} scored ${mark}`;
+//         console.log(final);
+//     }
+// }
+
+// const studentDetails = [
+//   { name: "John", marks: 85 },
+//   { name: "Alice", marks: 90 },
+//   { name: "Nabil", marks: 30 }
+// ];
+// arrrayOfStudents(studentDetails);
