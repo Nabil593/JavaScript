@@ -84,3 +84,12 @@
 
 
 
+// function array (original) {
+//     const copy = [...original];
+//     copy[0] = 99;
+//     return {Original: original, Copy: copy };
+// }
+
+// const result = array([1, 2, 3]);
+// console.log('Original:', result.Original, 'Copy:', result.Copy);
+
