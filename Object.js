@@ -36,12 +36,49 @@
 
 
 
-let student = {
-    name: 'Ariana Grande',
-    age: 21,
-    city: 'Gaibandha',
-    isStudent: true
-};
+// let student = {
+//     name: 'Ariana Grande',
+//     age: 21,
+//     city: 'Gaibandha',
+//     isStudent: true
+// };
 
-const lengthOfStudent = Object.keys(student).length;
-console.log(lengthOfStudent);
+// const lengthOfStudent = Object.keys(student).length;
+// console.log(lengthOfStudent);
+
+
+
+
+// function object(obj) {
+//     const value = Object.values(obj);
+//     let types = [];
+//     for (const k of value) {
+//         const type = typeof k;
+//         types.push(type);
+//     }
+//     const keys = Object.keys(obj);
+//     for (let i = 0; i < keys.length; i++) {
+//         const key = keys[i];
+//         const everyType = types[i];
+//         console.log(`Key: ${key} | type: ${everyType}`);
+//     }
+
+// }
+
+
+// function object(obj) {
+//     for (const key of Object.keys(obj)) {
+//         console.log(`Key: ${key} | type: ${typeof obj[key]}`);
+//     }
+// }
+
+
+
+
+// let myObject = {name: 'John Doe',
+// age: 25,
+// city: 'Example City',
+// isStudent: true,
+// };
+
+// object(myObject);
