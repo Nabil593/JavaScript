@@ -71,3 +71,16 @@
 // const newString = newArray.join('');
 // console.log(newString);
 
+
+
+// const statement = 'I am a hard working person';
+// const newStatement = statement.split(' ');
+// const reverseStatement = [];
+// for (const str of newStatement) {
+//     reverseStatement.unshift(str);
+// }
+// const result = reverseStatement.join(' ');
+// console.log(result);
+
+
+
