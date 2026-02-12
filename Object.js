@@ -21,15 +21,27 @@
 
 
 
-const student = {
-    name: "Hamim Sakep",
-    id: 5421,
-    physics: {
-        subject: "HSC Physics",
-        author: "Shahjahan Tapan",
-        marks: 30
-    }
+// const student = {
+//     name: "Hamim Sakep",
+//     id: 5421,
+//     physics: {
+//         subject: "HSC Physics",
+//         author: "Shahjahan Tapan",
+//         marks: 30
+//     }
+// };
+
+// const physicsmarks = student.physics.marks;
+// console.log(physicsmarks);
+
+
+
+let student = {
+    name: 'Ariana Grande',
+    age: 21,
+    city: 'Gaibandha',
+    isStudent: true
 };
 
-const physicsmarks = student.physics.marks;
-console.log(physicsmarks);
+const lengthOfStudent = Object.keys(student).length;
+console.log(lengthOfStudent);
