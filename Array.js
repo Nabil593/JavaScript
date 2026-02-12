@@ -110,3 +110,16 @@
 //   { name: "Nabil", marks: 30 }
 // ];
 // arrrayOfStudents(studentDetails);
+
+
+// function array(arr) {
+//     arr[1][0] = 99;
+//     return arr;
+// }
+
+// const result = array([
+//   [1, 2],
+//   [3, 4],
+//   [5, 6]
+// ]);
+// console.log(result)
