@@ -62,3 +62,12 @@
 // console.log(evenNumbers);
 
 
+
+// var numbers = ['Tom', 'Tim', 'Tin', 'Tik'];
+// const newArray = [];
+// for (const num of numbers) {
+//     newArray.push(num);
+// }
+// const newString = newArray.join('');
+// console.log(newString);
+
