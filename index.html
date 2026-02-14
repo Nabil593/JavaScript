@@ -11,10 +11,17 @@
     <h1>Hello PingPo</h1>
     <h1>Hello PingPon</h1>
     <h1>Hello PingPog</h1>
+    <button id="btn">Hey Touch me!</button>
     <script>
         const tagName = document.getElementsByTagName('h1');
         for (const h of tagName) {
             console.log(h.innerText);
+        }
+
+        const evenBtn = document.getElementById('btn');
+
+        evenBtn.onclick = function clicke() {
+            document.body.style.backgroundColor = 'pink';
         }
     </script>
 </body>
