@@ -12,6 +12,7 @@
     <h1>Hello PingPon</h1>
     <h1>Hello PingPog</h1>
     <button id="btn">Hey Touch me!</button>
+    <button id="btn2">Don't Touch me.. Mr. Pokemon. </button>
     <script>
         const tagName = document.getElementsByTagName('h1');
         for (const h of tagName) {
@@ -23,6 +24,10 @@
         evenBtn.onclick = function clicke() {
             document.body.style.backgroundColor = 'pink';
         }
+
+        const evenBtn2 = document.getElementById('btn2');
+        evenBtn2.addEventListener('click', function () {
+            document.body.style.backgroundColor = 'green'});
     </script>
 </body>
 </html>
