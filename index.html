@@ -12,8 +12,22 @@
     <h1>Hello PingPon</h1>
     <h1>Hello PingPog</h1>
     <button id="btn">Hey Touch me!</button>
-    <button id="btn2">Don't Touch me.. Mr. Pokemon. </button>
+    <button id="btn2">Don't Touch me.. Mr. Pokemon. </button><br><br>
+
+    <h1 id="set-name">Nothing else</h1>
+    <input class="input-Name" type="text" placeholder="Your Name">
+    <button id="change-btn">Change me</button>
     <script>
+
+        document.getElementById('change-btn').addEventListener('click', function () {
+            const inputValue = document.getElementsByClassName('input-Name');
+            const nameValue = inputValue[0].value;
+            
+            const setName = document.getElementById('set-name');
+            setName.innerText = nameValue;
+        })
+
+
         const tagName = document.getElementsByTagName('h1');
         for (const h of tagName) {
             console.log(h.innerText);
