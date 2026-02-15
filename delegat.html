@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>List Of Unknown</h1>
+    <ol id="item-list">
+        <li class="item">Hello</li>
+        <li class="item">Hello</li>
+        <li class="item">Hello</li>
+        <li class="item">Hello</li>
+        <li class="item">Hello</li>
+        <li class="item">Hello</li>
+    </ol>
+    <button id="add-new-item">Add New Item</button>
+    
+    <script>
+        
+        
+        const itemList = document.getElementsByClassName('item');
+        document.getElementById('item-list').addEventListener('click', function(e) {
+                e.target.parentNode.removeChild(e.target);
+        })
+        
+        document.getElementById('add-new-item').addEventListener('click', function() {
+            const ol = document.getElementById('item-list');
+            const newi = document.createElement('li');
+            newi.innerText = 'Gelo';
+            ol.appendChild(newi);
+        })
+    </script>
+</body>
+</html>
+
